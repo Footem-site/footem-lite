@@ -1,0 +1,73 @@
+
+<!doctype html><html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>UEFA Champions League | Footem Lite</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo">
+      <img src="assets/logo.svg" alt="logo" width="28" height="28"/>
+      <span>Footem Lite</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="news.html">News</a>
+      <a href="ucl.html">Champions League</a>
+      <a href="premier-league.html">Premier League</a>
+      <a href="live.html">Live Scores</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
+
+  <main class="container">
+    <section class="card">
+      <h1 style="margin:.25rem 0 1rem">UEFA Champions League</h1>
+      <div class="tabs">
+        <button class="tab active" data-tab="table">Table</button>
+        <button class="tab" data-tab="stats">Stats</button>
+        <button class="tab" data-tab="fixtures">Fixtures</button>
+      </div>
+      <div data-panel="table">
+        <table class="table">
+          <thead><tr><th>#</th><th>Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>Pts</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>PSG</td><td>1</td><td>1</td><td>0</td><td>0</td><td>+2</td><td>3</td></tr>
+            <tr><td>2</td><td>Real Madrid</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div data-panel="stats" style="display:none">
+        <div class="grid grid-3">
+          <div class="card"><h3>Top Scorer</h3><p>Player — 4 goals</p></div>
+          <div class="card"><h3>Most Assists</h3><p>Player — 3</p></div>
+          <div class="card"><h3>Clean Sheets</h3><p>Goalkeeper — 2</p></div>
+        </div>
+      </div>
+      <div data-panel="fixtures" style="display:none">
+        <ul>
+          <li class="card">Barcelona vs Bayern — 1:00 AM</li>
+          <li class="card">Juventus vs Man City — 2:30 AM</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+<footer class="container footer">
+  <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem">
+    <div>© 2025 Footem Lite. Inspired by footem.site, not affiliated.</div>
+    <div class="flex">
+      <a class="btn" href="#">About</a>
+      <a class="btn" href="#">Privacy</a>
+      <a class="btn" href="#">DMCA</a>
+    </div>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body></html>

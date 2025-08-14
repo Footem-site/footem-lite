@@ -1,0 +1,52 @@
+
+<!doctype html><html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Contact | Footem Lite</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo">
+      <img src="assets/logo.svg" alt="logo" width="28" height="28"/>
+      <span>Footem Lite</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="news.html">News</a>
+      <a href="ucl.html">Champions League</a>
+      <a href="premier-league.html">Premier League</a>
+      <a href="live.html">Live Scores</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
+
+  <main class="container">
+    <section class="card">
+      <h1>Contact Us</h1>
+      <form class="grid" onsubmit="event.preventDefault(); alert('Submitted! Replace with your form handler.');">
+        <input class="card" placeholder="Your name" required/>
+        <input class="card" placeholder="Email" type="email" required/>
+        <textarea class="card" placeholder="Message" rows="6" required></textarea>
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+<footer class="container footer">
+  <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem">
+    <div>© 2025 Footem Lite. Inspired by footem.site, not affiliated.</div>
+    <div class="flex">
+      <a class="btn" href="#">About</a>
+      <a class="btn" href="#">Privacy</a>
+      <a class="btn" href="#">DMCA</a>
+    </div>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body></html>
